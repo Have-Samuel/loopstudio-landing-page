@@ -12,6 +12,11 @@
 :root {
   --White: #fff;
   --Black: #000;
+  --Gray: #f2f2f2;
   --Dark-Gray: #8c8c8c;
   --Very-Dark-Gray: #696969;
+}
+
+body {
+  background-color: var(--Gray);
 }
