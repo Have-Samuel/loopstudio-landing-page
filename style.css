@@ -8,3 +8,11 @@
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Alata', sans-serif;
 }
+
+/* Writing colors with variables */
+:root {
+  --White: #fff;
+  --Black: #000;
+  --Dark-Gray: #8c8c8c;
+  --Very-Dark-Gray: #696969;
+}
