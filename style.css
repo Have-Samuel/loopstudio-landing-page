@@ -9,7 +9,6 @@
   font-family: 'Alata', sans-serif;
 }
 
-/* Writing colors with variables */
 :root {
   --White: #fff;
   --Black: #000;
