@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
   font-family: 'Alata', sans-serif;
 }
 
@@ -50,6 +49,26 @@ body {
   height: 20px;
   cursor: pointer;
   margin-top: 0.9rem;
+}
+
+.content {
+  width: 342px;
+  color: var(--White);
+  margin: 8.3rem 1rem;
+  border: 1px solid var(--White);
+  padding: 1.5rem;
+}
+
+.content h2 {
+  width: 279px;
+  /* height: 146px; */
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+  /* letter-spacing: 2px; */
+  /* margin: 1rem; */
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .fast-img {
