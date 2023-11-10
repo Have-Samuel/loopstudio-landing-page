@@ -5,8 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: 'Alata', sans-serif;
 }
 
 :root {
@@ -19,13 +17,59 @@
 
 body {
   background-color: var(--Gray);
-  margin: 0 auto;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   position: relative;
+  /* height: 100%; */
+}
+
+main {
+  background-color: #fff;
+  box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--White);
+}
+
+.header .hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 0.9rem;
+}
+
+.content {
+  width: 342px;
+  color: var(--White);
+  margin: 8.3rem 1rem;
+  border: 1px solid var(--White);
+  padding: 1.5rem;
+}
+
+.content h2 {
+  width: 279px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .fast-img {
@@ -40,29 +84,35 @@ body {
 .navbar {
   width: 375px;
   font-size: 32px;
-  font-style: normal;
   text-align: left;
   height: 650px;
   background-color: #3c3a39;
   display: flex;
   flex-direction: column;
   /* position: fixed; */
-  /* top: 0;
-  left: 0; */
+  /* top: 0; */
+  display: none;
+  /* bottom: 0; */
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 30px;
+  height: 100px;
   color: white;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
   font-family: "Inter", sans-serif;
   margin: 3rem 1rem 0 1rem;
   cursor: pointer;
+}
+
+.line {
+  /* width: 100%; */
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.8s;
 }
 
 .logo:hover,
@@ -108,4 +158,85 @@ body {
 
 .change .line-3 {
   transform: rotateZ(405deg) translate(-8px, -8px);
+}
+
+.nav-list {
+  list-style: none;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.leader-img {
+  width: 327px;
+  height: 224px;
+  background-image: url('./images/mobile/image-interactive.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 6rem auto 2rem auto;
+}
+
+.leader .sub-cont {
+  width: 279px;
+  margin: 1rem auto;
+  margin-top: 4rem;
+}
+
+.sub-cont h3 {
+  width: 279px;
+  font-size: 2.1rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.sub-cont p {
+  width: 279px;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 2;
+  font-family: 'Alata', sans-serif;
+  margin-top: 1rem;
+  color: var(--Dark-Gray);
+  text-align: center;
+}
+
+.creations h2 {
+  width: 279px;
+  margin: 7rem auto 1rem auto;
+  font-size: 2.1rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* #section-cards {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 88px;
+  padding: 30px 24px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #dfe1e6;
+  box-shadow: 2px 16px 16px 2px rgba(0, 0, 0, 0.2);
+} */
+
+.column img {
+  display: flex;
+  width: 330px;
+  padding: 0.6rem;
+  margin: 0 auto;
 }
