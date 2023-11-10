@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
   position: relative;
 }
 
@@ -61,12 +60,9 @@ body {
 
 .content h2 {
   width: 279px;
-  /* height: 146px; */
   font-size: 2.6rem;
   font-weight: 300;
   line-height: 1;
-  /* letter-spacing: 2px; */
-  /* margin: 1rem; */
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
 }
