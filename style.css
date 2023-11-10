@@ -150,15 +150,14 @@ main {
   padding-left: 30px;
 }
 
-.leader {
+.leader-img {
   width: 327px;
   height: 224px;
   background-image: url('./images/mobile/image-interactive.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 7rem auto;
-  padding-top: 14rem;
+  margin: 6rem auto 2rem auto;
 }
 
 .leader .sub-cont {
@@ -173,4 +172,12 @@ main {
   line-height: 1;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
+}
+
+.sub-cont p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: 'Alata', sans-serif;
+  margin-top: 1rem;
 }
