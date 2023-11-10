@@ -143,3 +143,14 @@ body {
   justify-content: center;
   padding-left: 30px;
 }
+
+.leader {
+  width: 327px;
+  height: 224px;
+  background-image: url('./images/mobile/image-interactive.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 7rem 1rem;
+  padding-top: 10rem;
+}
