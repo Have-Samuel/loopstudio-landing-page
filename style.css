@@ -233,3 +233,16 @@ main {
   padding: 0.6rem;
   margin: 0 auto;
 }
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  padding: 1rem;
+}
