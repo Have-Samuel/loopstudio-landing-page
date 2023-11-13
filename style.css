@@ -228,7 +228,6 @@ main {
 } */
 
 .column img {
-  position: relative;
   display: flex;
   width: 330px;
   padding: 0.6rem;
@@ -249,7 +248,10 @@ main {
 }
 
 .wording {
-  position: absolute;
-  top: 2rem;
+  width: 80px;
+  position: relative;
+  top: -8rem;
+  left: 3.5rem;
+  color: #fff;
   z-index: 1;
 }
