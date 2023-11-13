@@ -229,7 +229,12 @@ main {
 
 .column {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
 }
 
 .column img {
@@ -255,26 +260,121 @@ main {
 }
 
 .text-block-1 {
-  /* 
   position: relative;
   font-family: 'Josefin Sans', sans-serif;
-  bottom: 6rem;
-  line-height: 0.8;
-  left: 3.5rem;
-  color: #fff;
-  z-index: 1;
-  
-  
-  /* position: absolute; */
-  position: relative;
-  font-size: 2.5rem;
-  width: 100px;
-  bottom: 5.4rem;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
   text-transform: uppercase;
-  left: 1.3rem;
-  background-color: red;
+  left: 1.1rem;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-2 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 0.8;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-3 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-4 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-5 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-6 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-7 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
+}
+
+.text-block-8 {
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8rem;
+  width: 80px;
+  bottom: 4.5rem;
+  text-transform: uppercase;
+  left: 1.1rem;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1;
+  font-weight: 300;
 }
