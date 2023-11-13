@@ -392,3 +392,13 @@ main {
   font-weight: 300;
   opacity: 0.9;
 }
+
+.footer {
+  width: 375px;
+  height: 650px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
