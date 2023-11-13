@@ -228,6 +228,7 @@ main {
 } */
 
 .column img {
+  position: relative;
   display: flex;
   width: 330px;
   padding: 0.6rem;
@@ -245,4 +246,10 @@ main {
 .social-icons a {
   margin: 0 0.5rem;
   padding: 1rem;
+}
+
+.wording {
+  position: absolute;
+  top: 2rem;
+  z-index: 1;
 }
