@@ -45,6 +45,25 @@ main {
   color: var(--White);
 }
 
+.container {
+  width: 375px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: fixed;
+  width: 785px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1.9rem 3rem;
+  background-color: #3c3a39;
+  z-index: 100;
+  transition: 0.5s; */
+}
+
 .navbar {
   width: 375px;
   font-size: 32px;
@@ -61,15 +80,15 @@ main {
   margin: 0 auto;
 }
 
-.logo {
+.logo-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 14px;
-  height: 100px;
+  /* height: 100px; */
   text-decoration: none;
   margin: 1rem 1rem 0 1rem;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .line {
