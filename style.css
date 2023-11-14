@@ -44,7 +44,6 @@ main {
 .container {
   position: relative;
   width: 375px;
-  /* height: 650px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,16 +53,18 @@ main {
 
 .navbar {
   width: 375px;
+  /* width: 100%; */
   font-size: 32px;
   text-align: left;
   height: 690px;
   /* height: 100vh; */
   background-color: #000;
+  opacity: 0.5;
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 0;
-  right: -250vh;
+  right: -50vh;
   transition: all 0.8s;
 }
 
@@ -87,9 +88,9 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: fixed;
-  top: 3.4rem;
-  right: 9.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
 }
 /* 
 @keyframes loopstudios {
