@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 :root {
@@ -22,123 +23,112 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
-  /* height: 100%; */
+  /* position: relative; */
 }
 
 main {
+  position: relative;
+  width: 375px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 .header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  padding: 1rem 1.5rem;
-  justify-content: space-between;
-}
-
-.header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--White);
-}
-
-.header .hamburger-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-  margin-top: 0.9rem;
-}
-
-.content {
-  width: 342px;
-  color: var(--White);
-  margin: 8.3rem 1rem;
-  border: 1px solid var(--White);
-  padding: 1.5rem;
-}
-
-.content h2 {
-  width: 279px;
-  font-size: 2.6rem;
-  font-weight: 300;
-  line-height: 1;
-  font-family: 'Josefin Sans', sans-serif;
-  text-transform: uppercase;
-}
-
-.fast-img {
   width: 375px;
   height: 650px;
+  z-index: 200;
+  transition: 0.5s;
+}
+
+.container {
   background-image: url('./images/mobile/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* position: fixed; */
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 100;
+  padding: -1.9rem 3rem;
+  transition: 0.5s;
 }
 
 .navbar {
   width: 375px;
   font-size: 32px;
   text-align: left;
-  height: 650px;
-  background-color: #3c3a39;
+  height: 690px;
+  background-color: #000;
+  opacity: 0.5;
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
-  /* top: 0; */
-  display: none;
-  /* bottom: 0; */
+  position: absolute;
+  top: 0;
+  right: -250vh;
+  transition: all 0.8s;
+}
+
+.hamburger-menu {
+  width: 32px;
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 2rem;
+  left: 50.5rem;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 30px;
-  height: 100px;
   color: white;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
-  margin: 3rem 1rem 0 1rem;
-  cursor: pointer;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 20px;
+  animation: loopstudios;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  margin: 2rem 0 0 1rem;
 }
 
+
+/* 
+@keyframes loopstudios {
+  from {
+    top: 60px;
+  }
+
+  53% {
+    top: 11px;
+    transform: rotate(360deg);
+  }
+
+  26% {
+    top: 0;
+    transform: rotate(0);
+  }
+} */
+
 .line {
-  /* width: 100%; */
   height: 2px;
   background-color: #fff;
   transition: all 0.8s;
 }
 
-.logo:hover,
-.logo:active {
-  color: #e4752b;
-}
-
 .change {
   right: 0;
-}
-
-.color-caption {
-  color: #172b4d;
-  font-family: 'Roboto', sans-serif;
-}
-
-.hamburger-menu {
-  width: 35px;
-  height: 25px;
-  /* position: fixed;
-  top: 30px;
-  right: 50px; */
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .change .line-1 {
@@ -154,13 +144,56 @@ main {
 }
 
 .nav-list {
+  width: 129px;
   list-style: none;
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: self-start;
   justify-content: center;
-  padding-left: 30px;
+  padding-left: 1.9rem;
+}
+
+.nav-list .nav-item {
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.nav-list .nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
+}
+
+.header .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 0.9rem;
+}
+
+.content {
+  width: 342px;
+  color: var(--White);
+  margin: 10.9rem 1rem;
+  border: 1px solid var(--White);
+  padding: 1rem;
+}
+
+.content h2 {
+  width: 279px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 .leader-img {
@@ -415,4 +448,8 @@ main {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 4rem;
+}
+
+.desktop-nav {
+  display: none;
 }
