@@ -84,11 +84,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 14px;
-  /* height: 100px; */
   text-decoration: none;
-  margin: 1rem 1rem 0 1rem;
-  /* cursor: pointer; */
+  margin: 1rem 0;
+}
+
+.logo-menu .logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--White);
+  text-decoration: none;
 }
 
 .line {
