@@ -85,26 +85,27 @@ main {
   width: 375px;
   font-size: 32px;
   text-align: left;
-  height: 650px;
+  height: 690px;
   background-color: #3c3a39;
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
-  /* top: 0; */
-  display: none;
-  /* bottom: 0; */
+  position: fixed;
+  top: 0;
+  /* display: none; */
+  bottom: 0;
+  z-index: 100;
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 14px;
   height: 100px;
   color: white;
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  margin: 3rem 1rem 0 1rem;
+  margin: 1rem 1rem 0 1rem;
   cursor: pointer;
 }
 
@@ -113,11 +114,6 @@ main {
   height: 2px;
   background-color: #fff;
   transition: all 0.8s;
-}
-
-.logo:hover,
-.logo:active {
-  color: #e4752b;
 }
 
 .change {
