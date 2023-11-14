@@ -22,8 +22,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
-  /* height: 100%; */
+  /* position: relative; */
 }
 
 main {
@@ -40,31 +39,32 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
 }
 
 .container {
+  position: relative;
   width: 375px;
-  height: 650px;
+  /* height: 650px; */
   display: flex;
   flex-direction: column;
- }
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 100;
+}
 
 .navbar {
   width: 375px;
   font-size: 32px;
   text-align: left;
   height: 690px;
+  /* height: 100vh; */
   background-color: #000;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: -250vh;
-  z-index: 100;
-  margin: 0 auto;
+  transition: all 0.8s;
 }
 
 .logo {
@@ -80,6 +80,18 @@ main {
   margin: 2rem 0 0 1rem;
 }
 
+.hamburger-menu {
+  width: 32px;
+  height: 22px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 3.4rem;
+  right: 9.5rem;
+}
+/* 
 @keyframes loopstudios {
   from {
     top: 60px;
@@ -94,14 +106,6 @@ main {
     top: 0;
     transform: rotate(0);
   }
-}
-
-/* .navbar .logo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--White);
-  text-decoration: none;
-  font-family: 'Josefin Sans', sans-serif;
 } */
 
 .line {
@@ -112,18 +116,6 @@ main {
 
 .change {
   right: 0;
-}
-
-.hamburger-menu {
-  width: 32px;
-  height: 22px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: fixed;
-  top: 3.4rem;
-  right: 9.5rem;
 }
 
 .change .line-1 {
@@ -177,7 +169,7 @@ main {
 .content {
   width: 342px;
   color: var(--White);
-  margin: 9.8rem 1rem;
+  margin: 10.9rem 1rem;
   border: 1px solid var(--White);
   padding: 1rem;
 }
