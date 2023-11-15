@@ -27,6 +27,7 @@ body {
 }
 
 main {
+  position: relative;
   width: 375px;
   height: 100%;
   display: flex;
@@ -44,6 +45,7 @@ main {
   height: 650px;
   z-index: 200;
   transition: 0.5s;
+  position: relative;
 }
 
 .container {
@@ -71,10 +73,10 @@ main {
   opacity: 0.5;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: -250vh;
-  transition: all 0.8s;
+  transition: all 0s;
 }
 
 .hamburger-menu {
