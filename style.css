@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 
 :root {
@@ -23,11 +22,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
 }
 
 main {
-  position: relative;
   width: 375px;
   height: 100%;
   display: flex;
@@ -40,27 +37,13 @@ main {
 
 .header {
   display: flex;
-  flex-direction: column;
-  width: 375px;
-  height: 650px;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.5s;
   z-index: 200;
-  transition: 0.5s;
-}
-
-.container {
-  background-image: url('./images/mobile/image-hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* position: fixed; */
-  width: 375px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
-  z-index: 100;
-  padding: -1.9rem 3rem;
-  transition: 0.5s;
 }
 
 .navbar {
@@ -75,7 +58,6 @@ main {
   position: absolute;
   top: 0;
   right: -250vh;
-  transition: all 0.8s;
 }
 
 .hamburger-menu {
@@ -85,9 +67,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: fixed;
+  position: absolute;
   top: 2rem;
-  left: 50.5rem;
+  left: 20.5rem;
+  z-index: 100;
 }
 
 .logo {
@@ -169,14 +152,13 @@ main {
   cursor: pointer;
 }
 
-.header .menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-  margin-top: 0.9rem;
+.show {
+  width: 375px;
+  height: 650px;
+  background-image: url('./images/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .content {

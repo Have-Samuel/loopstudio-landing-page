@@ -11,5 +11,5 @@ listItems.forEach((item) => {
 
 menuIcon.addEventListener('click', () => {
   navbar.classList.toggle('change');
-  console.log(menuIcon);
+  // console.log(menuIcon);
 });
