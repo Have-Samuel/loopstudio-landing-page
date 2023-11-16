@@ -152,7 +152,16 @@ main {
   cursor: pointer;
 }
 
-.show {
+/* .show {
+  width: 375px;
+  height: 650px;
+  background-image: url('./images/mobile/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.show-img {
   width: 375px;
   height: 650px;
   background-image: url('./images/mobile/image-hero.jpg');
