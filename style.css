@@ -26,6 +26,7 @@ body {
 }
 
 main {
+  /* position: relative; */
   width: 375px;
   height: 100%;
   display: flex;
@@ -38,9 +39,9 @@ main {
 
 .header {
   display: flex;
-  position: relative;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
   height: 0;
   transition: 0.5s;
@@ -49,14 +50,19 @@ main {
 
 .navbar {
   width: 375px;
+  /* width: 100%; */
   font-size: 32px;
+  font-style: normal;
   text-align: left;
-  height: 690px;
+  line-height: 44px;
+  /* height: 690px; */
+  height: 100%;
   background-color: #000;
   opacity: 0.5;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
+  /* position: absolute; */
   top: 0;
   right: -250vh;
 }
@@ -68,7 +74,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
   top: 2rem;
   left: 20.5rem;
   z-index: 100;
@@ -83,7 +89,9 @@ main {
   animation: loopstudios;
   animation-duration: 1200ms;
   animation-timing-function: ease-in-out;
-  position: relative;
+  position: fixed;
+  top: 1rem;
+  left: 11.5rem;
   margin: 2rem 0 0 1rem;
 }
 
@@ -143,6 +151,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .content {
