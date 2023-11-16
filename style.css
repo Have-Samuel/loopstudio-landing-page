@@ -33,13 +33,15 @@ main {
   flex-direction: column;
   align-items: center; */
   /* justify-content: center; */
+  /* width: 100%; */
+  margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 
 .container {
-  position: fixed;
-  width: 785px;
+  position: relative;
+  width: 375px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,10 +54,10 @@ main {
 
 .header {
   display: flex;
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  left: 0; */
-  width: 100%;
+  /* left: 0; */
+  width: 375px;
   height: 0;
   transition: 0.5s;
   z-index: 200;
@@ -71,11 +73,11 @@ main {
   /* height: 690px; */
   height: 100%;
   background-color: #000;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   display: flex;
   flex-direction: column;
-  position: fixed;
-  /* position: absolute; */
+  /* position: fixed; */
+  position: relative;
   top: 0;
   right: -250vh;
 }
@@ -99,9 +101,6 @@ main {
   font-weight: 700;
   font-size: 2rem;
   line-height: 20px;
-  animation: loopstudios;
-  animation-duration: 1200ms;
-  animation-timing-function: ease-in-out;
   position: fixed;
   top: 1rem;
   left: 11.5rem;
@@ -165,6 +164,9 @@ main {
   background-size: cover;
   background-position: center;
   position: relative;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .content {
