@@ -1,6 +1,5 @@
 // Mobile MenuPopup
-const menuIcon = document.querySelector('.hamburger-menu');
-
+const menuIcon = document.querySelector('.hamburger');
 
 const navbar = document.querySelector('.navbar');
 
