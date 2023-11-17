@@ -1,6 +1,6 @@
 // Mobile MenuPopup
 const menuIcon = document.querySelector('.hamburger-menu');
-// capturing the third child of the document object
+
 
 const navbar = document.querySelector('.navbar');
 

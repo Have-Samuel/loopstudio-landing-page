@@ -35,12 +35,18 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
   position: relative;
   top: 0;
   left: 0;
   transition: 0.5s;
   z-index: 200;
+}
+
+.header-top {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 2rem 1rem;
 }
 
 .navbar {
@@ -53,7 +59,7 @@ main {
   background-color: #000;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: -250vh;
 }
@@ -66,8 +72,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 2rem;
-  left: 20.5rem;
+  left: 20.2rem;
   z-index: 100;
 }
 
@@ -78,9 +83,8 @@ main {
   font-size: 2rem;
   line-height: 20px;
   position: relative;
-  top: 1rem;
   left: 0;
-  margin: 2rem 0 0 1rem;
+  /* margin: 1rem 0 0 1rem; */
 }
 
 .line {
