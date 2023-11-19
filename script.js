@@ -1,5 +1,5 @@
 // Mobile MenuPopup
-const menuIcon = document.querySelector('.hamburger');
+const menuIcon = document.querySelector('.humburger');
 const navbar = document.querySelector('.navbar');
 
 menuIcon.addEventListener('click', () => {
