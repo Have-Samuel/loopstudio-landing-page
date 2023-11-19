@@ -39,14 +39,13 @@ main {
   top: 0;
   left: 0;
   transition: 0.5s;
-  /* z-index: 20; */
 }
 
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
 }
 
 .navbar {
@@ -63,7 +62,21 @@ main {
   position: absolute;
   top: 0;
   right: -250vh;
-  /* z-index: -10; */
+}
+
+.nav-logo {
+  height: 100px;
+  margin-top: -6rem;
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+.nav-logo .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 20px;
 }
 
 .logo {
