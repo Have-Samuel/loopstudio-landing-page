@@ -429,8 +429,6 @@ main {
   display: none;
 }
 
-
-
 @media (min-width: 1400px) {
   /* .navbar {
     display: none;
@@ -601,9 +599,5 @@ main {
     font-weight: 300;
     line-height: 1;
     font-family: 'Josefin Sans', sans-serif;
-  }
-
-  .creations a {
-    
   }
 }
