@@ -462,12 +462,12 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 0 3rem;
+    margin: 0 7rem 0 0;
   }
 
   .desktop-nav .desktop-nav_logo {
     display: flex;
-    gap: 38rem;
+    gap: 33.5rem;
     font-weight: 700;
     font-size: 2.5rem;
     align-items: center;
@@ -499,10 +499,34 @@ main {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 20px;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: capitalize;
     cursor: pointer;
+  }
+
+  .desktop-nav_items a:hover {
+    color: #fdbc0a;
+    border-bottom: #fff 2px solid;
+    width: 100px;
+  }
+
+  .content {
+    width: 650px;
+    height: 278px;
+    margin: 10.9rem 9rem;
+    padding: 0;
+  }
+
+  .content h2 {
+    align-items: center;
+    width: 570px;
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1;
+    margin: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
   }
 }
