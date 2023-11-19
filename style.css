@@ -529,4 +529,34 @@ main {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
   }
+
+  .leader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 1111px;
+    height: 500px;
+    position: relative;
+  }
+
+  .leader-img {
+    width: 889px;
+    height: 450px;
+    background-image: url('./images/desktop/image-interactive.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .leader .sub-cont {
+    background-color: #fff;
+    width: 342px;
+    margin: 1rem auto;
+    margin-top: 4rem;
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+  }
 }
