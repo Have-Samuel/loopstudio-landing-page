@@ -424,3 +424,79 @@ main {
 .desktop-nav {
   display: none;
 }
+
+@media (min-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+
+  .humburger {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  /* body {
+    background-color: var(--Gray);
+    overflow-x: hidden;
+  } */
+
+  main {
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  }
+
+  .header {
+    width: 1440px;
+    height: 650px;
+    background-image: url('./images/desktop/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: relative;
+    top: 0;
+    left: 0; */
+    transition: 0.5s;
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.5rem;
+  }
+
+  .navbar {
+    width: 375px;
+    font-size: 32px;
+    font-style: normal;
+    text-align: left;
+    line-height: 44px;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -250vh;
+  }
+
+  .nav-logo {
+    height: 100px;
+    margin-top: -6rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+  }
+
+  .nav-logo .nav-link-1 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
