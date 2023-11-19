@@ -23,7 +23,7 @@ body {
 main {
   width: 375px;
   height: 100%;
-  margin: 0 auto;
+  margin: 1rem auto;
   background-color: #fff;
   box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
@@ -425,10 +425,10 @@ main {
   display: none;
 }
 
-@media (min-width: 1200px) {
-  .navbar {
+@media (min-width: 1400px) {
+  /* .navbar {
     display: none;
-  }
+  } */
 
   .humburger {
     display: none;
@@ -438,17 +438,10 @@ main {
     display: none;
   }
 
-  /* body {
-    background-color: var(--Gray);
-    overflow-x: hidden;
-  } */
-
   main {
     width: 1440px;
     height: 100%;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    margin: 2rem auto;
   }
 
   .header {
@@ -458,45 +451,56 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* position: relative;
-    top: 0;
-    left: 0; */
-    transition: 0.5s;
   }
 
-  .header-top {
+  .desktop-nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 1.5rem;
-  }
-
-  .navbar {
-    width: 375px;
-    font-size: 32px;
-    font-style: normal;
-    text-align: left;
-    line-height: 44px;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
     position: absolute;
     top: 0;
-    right: -250vh;
+    right: 0;
+    margin: 0 3rem;
   }
 
-  .nav-logo {
-    height: 100px;
-    margin-top: -6rem;
-    margin-bottom: 5rem;
-    cursor: pointer;
+  .desktop-nav .desktop-nav_logo {
+    display: flex;
+    width: 100%;
+    gap: 45rem;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 20px;
   }
 
-  .nav-logo .nav-link-1 {
+  .desktop-nav .desktop-nav_logo .top-Logo {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+    font-size: 2rem;
+    line-height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+  .desktop-nav_items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .desktop-nav_items a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    cursor: pointer;
   }
 }
