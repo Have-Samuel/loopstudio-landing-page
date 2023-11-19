@@ -71,7 +71,7 @@ main {
   cursor: pointer;
 }
 
-.nav-logo .nav-link {
+.nav-logo .nav-link-1 {
   color: #fff;
   text-decoration: none;
   font-weight: 700;
@@ -160,6 +160,10 @@ main {
   line-height: 1;
   font-family: 'Josefin Sans', sans-serif;
   cursor: pointer;
+}
+
+.nav-list .nav-link:hover {
+  color: #fdbc0a;
 }
 
 .content {
