@@ -88,12 +88,6 @@ main {
 
 .humburger {
   display: block;
-  position: relative;
-  right: 0;
-  top: 0;
-  margin-right: 1rem;
-  width: 20px;
-  height: 20px;
   cursor: pointer;
 }
 
@@ -109,7 +103,7 @@ main {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-.change {
+.navbar.change {
   right: 0;
 }
 
@@ -152,12 +146,6 @@ main {
   line-height: 1;
   font-family: 'Josefin Sans', sans-serif;
   cursor: pointer;
-}
-
-.show-img {
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
 .content {
