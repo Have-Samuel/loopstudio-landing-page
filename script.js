@@ -67,3 +67,5 @@ const allCardNames = [];
 for (let i = 0; i < projects.length; i += 1) {
   allCardNames.push(projects[i].title);
 }
+
+//
