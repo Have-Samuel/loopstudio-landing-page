@@ -599,4 +599,26 @@ main {
     line-height: 1;
     font-family: 'Josefin Sans', sans-serif;
   }
+
+  .card {
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #dfe1e6;
+    box-shadow: 2px 16px 16px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .title {
+    font-size: 2.05rem;
+    line-height: 1.375;
+    margin-top: 12px;
+    margin-left: 0.5rem;
+  }
+
+  .color-caption {
+    color: #172b4d;
+    font-family: 'Roboto', sans-serif;
+  }
 }
