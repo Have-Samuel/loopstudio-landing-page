@@ -428,10 +428,10 @@ main {
   display: none;
 }
 
-@media (min-width: 1400px) {
-  /* .navbar {
+@media (min-width: 100px) {
+  .navbar {
     display: none;
-  } */
+  }
 
   .humburger {
     display: none;
@@ -442,7 +442,7 @@ main {
   }
 
   main {
-    width: 1440px;
+    width: 1200px;
     height: 100%;
     margin: 2rem auto;
   }
