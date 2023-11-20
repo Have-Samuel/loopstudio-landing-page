@@ -10,38 +10,46 @@ menuIcon.addEventListener('click', () => {
 // Projects
 const projects = [
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'deep earth',
+    featuredImage: './images/desktop/image-deep-earth.jpg',
   },
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'night arcade',
+    featuredImage: './images/desktop/image-night-arcade.jpg',
   },
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'soccer team vr',
+    featuredImage: './images/desktop/image-soccer-team.jpg',
   },
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'the grid',
+    featuredImage: './images/desktop/image-grid.jpg',
   },
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'from up above vr',
+    featuredImage: './images/desktop/image-from-above.jpg',
   },
   {
-    title: 'Time tracking dashboard',
-    featuredImage: './desktop-images/desktop-preview-00.jpg',
+    title: 'pocket borealis',
+    featuredImage: './images/desktop/image-pocket-borealis.jpg',
+  },
+  {
+    title: 'the curiosity',
+    featuredImage: './images/desktop/image-curiosity.jpg',
+  },
+  {
+    title: 'make it fisheye',
+    featuredImage: './images/desktop/image-fisheye.jpg',
   },
 ];
 
 // Dynamically render projects
-function renderCards() {
+function renderCards(work) {
   return `
     <div class="card">
-      <img src="${projects[0].featuredImage}" alt="Project 1" />
+      <img src="${work.featuredImage}" alt="Project 1" />
       <div class="card-content">
-        <h2 class="title color-caption">${projects[0].title}</h2>
+        <h2 class="title color-caption">${work.title}</h2>
       </div>
     </div>
   `;
@@ -49,5 +57,13 @@ function renderCards() {
 
 const projectsContainer = document.querySelector('#projects-container');
 projectsContainer.innerHTML = `
-  ${renderCards()}
+  ${projects.map(renderCards).join('')}
 `;
+
+// Containing Array
+const allCardNames = [];
+
+// Looping through the array
+for (let i = 0; i < projects.length; i += 1) {
+  allCardNames.push(projects[i].title);
+}
