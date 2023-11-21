@@ -329,6 +329,10 @@ main {
   display: none;
 }
 
+.card-img-desktop {
+  display: none;
+}
+
 /* @media (min-width: 100px) {
   .navbar {
     display: none;
