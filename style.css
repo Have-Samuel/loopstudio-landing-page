@@ -333,7 +333,7 @@ main {
   display: none;
 }
 
-@media (min-width: 786px) {
+@media (min-width: 1200px) {
   .navbar {
     display: none;
   }
@@ -357,14 +357,13 @@ main {
   }
 
   main {
-    width: 1000px;
+    width: 1200px;
     height: 100%;
     margin: 2rem auto;
   }
 
   .header {
     width: 100%;
-    /* width: 1440px; */
     height: 650px;
     background-image: url('./images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
@@ -386,7 +385,7 @@ main {
 
   .desktop-nav .desktop-nav_logo {
     display: flex;
-    gap: 15rem;
+    gap: 28.5rem;
     font-weight: 700;
     font-size: 2.5rem;
     align-items: center;
@@ -434,7 +433,7 @@ main {
   .content {
     width: 450px;
     height: 218px;
-    margin: 10.9rem 9rem 0 7rem;
+    margin: 10.9rem 9rem 0 5.7rem;
   }
 
   .content h2 {
