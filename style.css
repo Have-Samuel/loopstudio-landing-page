@@ -241,7 +241,7 @@ main {
   padding: 24px;
 }
 
-.card {
+.card-m {
   border-radius: 10px;
   background-color: #fff;
   display: flex;
@@ -333,7 +333,7 @@ main {
   display: none;
 }
 
-/* @media (min-width: 100px) {
+@media (min-width: 786px) {
   .navbar {
     display: none;
   }
@@ -346,14 +346,25 @@ main {
     display: none;
   }
 
+  .card-m {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0  auto;
+  }
+
   main {
-    width: 1200px;
+    width: 1000px;
     height: 100%;
     margin: 2rem auto;
   }
 
   .header {
-    width: 1440px;
+    width: 100%;
+    /* width: 1440px; */
     height: 650px;
     background-image: url('./images/desktop/image-hero.jpg');
     background-repeat: no-repeat;
@@ -370,12 +381,12 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 0 7rem 0 0;
+    margin: 0 4rem 0 0;
   }
 
   .desktop-nav .desktop-nav_logo {
     display: flex;
-    gap: 33.5rem;
+    gap: 15rem;
     font-weight: 700;
     font-size: 2.5rem;
     align-items: center;
@@ -398,7 +409,7 @@ main {
     justify-content: center;
     vertical-align: middle;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     margin-bottom: 1rem;
   }
@@ -506,20 +517,20 @@ main {
   }
 
   #projects-container {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     width: 1111px;
-    height: 500px; 
+    height: 500px;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 88px;
     padding: 30px 24px;
-  }*/
+  }
 
-  /* .card {
+  .card {
     border-radius: 10px;
     background-color: #fff;
     display: flex;
@@ -548,4 +559,4 @@ main {
     color: #172b4d;
     font-family: 'Roboto', sans-serif;
   }
-}  */
+}
