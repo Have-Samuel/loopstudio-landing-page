@@ -458,7 +458,6 @@ main {
   }
 
   .leader-img {
-    /* border: 1px solid #131212; */
     width: 889px;
     height: 400px;
     background-image: url('./images/desktop/image-interactive.jpg');
@@ -468,7 +467,6 @@ main {
   }
 
   .leader .sub-cont {
-    /* border: 1px solid #131212; */
     background-color: #fff;
     width: 485px;
     height: 270px;
@@ -504,12 +502,14 @@ main {
   }
 
   .creations h2 {
-    width: 445px;
+    /* margin: 0 auto; */
+
+    /* width: 445px;
     margin: 9rem auto 4rem 11rem;
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif; */
   }
 
   #projects-container {
