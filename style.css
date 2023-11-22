@@ -458,7 +458,7 @@ main {
   }
 
   .leader-img {
-    border: 1px solid #131212;
+    /* border: 1px solid #131212; */
     width: 889px;
     height: 400px;
     background-image: url('./images/desktop/image-interactive.jpg');
@@ -468,7 +468,7 @@ main {
   }
 
   .leader .sub-cont {
-    border: 1px solid #131212;
+    /* border: 1px solid #131212; */
     background-color: #fff;
     width: 485px;
     height: 270px;
@@ -483,15 +483,15 @@ main {
     font-weight: 300;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
-    margin: 4rem 5rem 0 auto;
+    margin: 3rem 5rem 0 auto;
   }
 
   .sub-cont p {
-    width: 437px;
+    width: 388px;
     font-weight: 300;
     line-height: 1.3;
     font-family: 'Alata', sans-serif;
-    margin: 1rem auto 0 1rem;
+    margin: 1rem auto 0 3rem;
     color: var(--Dark-Gray);
     text-align: left;
   }
