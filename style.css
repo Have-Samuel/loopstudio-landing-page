@@ -432,19 +432,17 @@ main {
   }
 
   .content {
-    width: 650px;
-    height: 278px;
-    margin: 10.9rem 9rem;
-    padding: 0;
+    width: 450px;
+    height: 218px;
+    margin: 10.9rem 9rem 0 7rem;
   }
 
   .content h2 {
     align-items: center;
-    width: 570px;
-    font-size: 4.5rem;
+    width: 450px;
+    font-size: 3.5rem;
     font-weight: 300;
-    line-height: 1;
-    margin: 2rem;
+    padding: 1rem;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
   }
