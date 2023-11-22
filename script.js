@@ -54,7 +54,7 @@ const projects = [
 // Dynamically render projects
 function renderCards(work) {
   return `
-    <div class="card">
+    <div class="card-m card-d">
       <img class="card-img" src="${work.mobileImage}" alt="Project 1" aria-hidden="true" />
       <img class="card-img-desktop" src="${work.featuredImage}" alt="Project 1" aria-hidden="true" />
       <div class="card-content">
