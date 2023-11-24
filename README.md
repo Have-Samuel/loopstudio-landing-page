@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/loopstudio-landing-page)
-- [Live Link]()
+- [Live Link](https://have-samuel.github.io/loopstudio-landing-page/)
 - [Frontend Mentor](https://www.frontendmentor.io/profile/Have-Samuel)
 
 ## My process
