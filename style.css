@@ -71,6 +71,17 @@ main {
   cursor: pointer;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.attribution a {
+  color: #0690eb;
+  text-decoration: none;
+}
+
 .nav-logo .nav-link-1 {
   color: #fff;
   text-decoration: none;
