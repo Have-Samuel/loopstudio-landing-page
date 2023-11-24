@@ -224,7 +224,6 @@ main {
 }
 
 .the-two h2 {
-  width: 279px;
   margin: 7rem auto 4rem auto;
   font-size: 2.1rem;
   font-weight: 300;
@@ -342,7 +341,7 @@ main {
   display: none;
 }
 
-.see-all {
+button {
   display: none;
 }
 
@@ -451,22 +450,35 @@ main {
 
   .the-two {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 7rem 1rem 0 1rem;
-    /* width: 450px; */
     border: 1px solid red;
   }
 
   .the-two h2 {
-    align-items: center;
-    /* width: 450px; */
+    align-items: flex-start;
     font-size: 3.5rem;
+    margin: 7rem 0 4rem 0;
   }
 
-  .the-two .see-all {
-    border: 1px solid black;
+  .the-two button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: #fdbc0a;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
   }
 
   .leader {
