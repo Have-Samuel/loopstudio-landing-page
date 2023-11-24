@@ -631,8 +631,4 @@ button {
     border-bottom: var(--White) 2px solid;
     padding-bottom: 0.2rem;
   }
-
-  @media (min-width: 1200px) {
-    
-  }
 }
