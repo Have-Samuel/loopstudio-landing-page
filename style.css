@@ -453,7 +453,6 @@ button {
     justify-content: space-around;
     align-items: center;
     margin: 7rem 1rem 0 1rem;
-    border: 1px solid red;
   }
 
   .the-two h2 {
@@ -462,13 +461,13 @@ button {
     margin: 7rem 0 4rem 0;
   }
 
-  .the-two button {
+  .the-two .see-all {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 50px;
-    background-color: #fdbc0a;
+    background-color: #080808;
     border: none;
     border-radius: 10px;
     font-size: 1.2rem;
@@ -478,7 +477,8 @@ button {
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
-    margin-right: 2rem;
+    margin: 2rem 0 0 2rem;
+    text-decoration: none;
   }
 
   .leader {
