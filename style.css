@@ -223,7 +223,7 @@ main {
   text-align: center;
 }
 
-.creations h2 {
+.the-two h2 {
   width: 279px;
   margin: 7rem auto 4rem auto;
   font-size: 2.1rem;
@@ -339,6 +339,10 @@ main {
 }
 
 .desktop-nav {
+  display: none;
+}
+
+.see-all {
   display: none;
 }
 
@@ -467,6 +471,7 @@ main {
 
   .the-two .see-all {
     color: black;
+    border: 1px solid black;
   }
 
   .leader {
